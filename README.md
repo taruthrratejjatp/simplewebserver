@@ -92,7 +92,7 @@ httpd = HTTPServer(server_address,myhandler)
 print("my own webserver is running successfully...")
 httpd.serve_forever()
 ```
-##OUTPUT:
+## OUTPUT:
 webpage:
 ![alt text](image-1.png)
 webserver:
