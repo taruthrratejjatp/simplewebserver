@@ -90,12 +90,12 @@ class myhandler(BaseHTTPRequestHandler):
 server_address = ('',8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my own webserver is running successfully...")
-httpd.serve_forever()```
-
-## OUTPUT:
+httpd.serve_forever()
+```
+##OUTPUT:
 webpage:
-c:\Users\acer\Pictures\Screenshots\Screenshot (27).png
+![alt text](image-1.png)
 webserver:
-c:\Users\acer\Pictures\Screenshots\Screenshot (26).png
+![alt text](image.png)
 ## RESULT:
 The program for implementing simple webserver is executed successfully.
